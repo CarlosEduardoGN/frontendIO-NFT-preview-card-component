@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    background-color: rgb(13,26,45);
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+}
+
+.div0{
+    border-radius: 50px;
+    background-color: rgb(12,25,44);
+    width:440px;
+    height:640px;
+    display:flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.div00{
+    border-radius: 50px;
+    background-color: rgb(12,23,41);
+    width:370px;
+    height:595px;
+    display:flex;
+    justify-content: center;
+    align-items: start;
+    margin-top:20px;
+}
+
+.div000{
+    border-radius: 15px;
+    background-color: hsl(216, 50%, 16%);
+    width:320px;
+    height:550px;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.div1{
+    margin: 25px;
+    margin-bottom:0px;
+    border-radius: 8px;
+    width: 270px;
+    height: 270px;
+}
+
+.div11{
+    position: absolute;
+    border-radius: 8px;
+    width: 270px;
+    height: 270px; 
+}
+
+.view{
+    position: absolute;
+    display:none;
+    top: 45%;
+    left: 42%;
+}
+
+.div1:hover .view{
+    display: block;
+    width: 40px;
+
+}
+
+.div1:hover .div11{
+    background-color: hsla(178, 100%, 50%,0.5);
+    cursor: pointer;
+}
+
+.div1 img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.div2{
+    font-size: 20px;
+    color: white;
+    margin: 25px;
+    margin-bottom: 0px;
+    align-self: start;
+}
+
+.div2:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.div3{
+    line-height: 22px;
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+    margin: 25px;
+}
+
+.div4{
+    width: 270px;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.div41{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(178, 100%, 50%);
+}
+
+.div42{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+}
+
+.div5{
+    border: solid 1px hsl(215, 51%, 70%);
+    width:270px;
+    height: 0px;
+    margin-bottom: 5px;
+}
+
+.div6{
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width:270px;
+    height: 50px;
+}
+
+.div6 span{
+    color:white;
+}
+
+.div6 span:hover{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.div6 img{
+    border: solid 1px white;
+    border-radius: 50%;
+    width:30px;
+    height: 30px;
+}
